@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"target": "es5",
+		"jsx": "react-jsx",
+		"noImplicitAny": true,
+		"allowJs": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"paths": {
+			"*": ["./src/*"]
+		}
+	},
+	"ts-node": {
+		"compilerOptions": {
+			"module": "CommonJS"
+		}
+	}
+}
